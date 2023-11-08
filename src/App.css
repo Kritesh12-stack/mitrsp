@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #CAF0F8;
+} */
+body{
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background: rgba(202, 240, 248, 1)
+    radial-gradient(rgba(18, 121, 252, 0.8) 10%, transparent 1%);
+
+  background-size: 11px 11px;
+  overflow-x: hidden;
+}
+
+

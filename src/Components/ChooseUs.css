@@ -1,0 +1,75 @@
+.chooseUs-container{
+    /* margin-bottom: 150px; */
+        position: relative;
+            top: 20vh;
+    width: 95vw;
+    height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chooseUs-head{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 27px;
+}
+.chooseUs-subContainer{
+    display: flex;
+}
+.choosePara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    width: 45vw;
+    gap: 2rem;
+}
+.chooseParaHead{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+   
+}
+.chooseParagraph{
+    text-align: center;
+    position: flex;
+    justify-content: center;
+    width: 90%;
+}
+.chooseUs-grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+.chooseCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #010226;
+    border-radius: 12.5%;
+    height: 31vh;
+    color: #DBF9FF;
+    box-shadow: #0a0b4a 0px 2px 8px 0px;
+}
+.chooseCardHead{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-weight: 900;
+    gap: 20px;
+}
+.chosseUsCardNote{
+    text-align: center;
+    font-size: small;
+    width: 80%;
+}
+.chosseUsImg{
+    width: 30px;
+    height: 30px;
+    background-color: #DBF9FF;
+    border-radius: 67% 33% 51% 49% / 25% 50% 50% 75% ;
+}

@@ -1,0 +1,44 @@
+.footer-container{
+    width: 99.6vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+      justify-content: center;
+    align-items: center;
+    background-color: #010226;
+    color: #FFFFFF;
+    top: 45vh;
+    border-radius: 9%;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    clip-path: polygon(3% 14%, 95% 0, 100% 8%, 100% 92%, 98% 100%, 4% 100%, 0 96%, 0% 20%);
+}
+.footerGrid{
+    display: grid;
+    grid-template-columns: 400px 200px 200px;
+    column-gap: 2vh;
+    justify-content: center;
+}
+.footerLogo{
+    background-color: #0709CE;
+    width:35vh;
+    border-radius: 16px;
+    box-shadow: 0px 15px ;
+    height: 90px;
+}
+.footerGridHead{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.All-Pages{
+     padding-left: 2.6vh;
+
+}
+.subFooter{
+    position: relative;
+    bottom: -9vh;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,36 @@
+
+.Container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.main{
+    background-color: #0709CE;
+    color: #CAF0F8;
+    display: flex;
+    gap: 12.5rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    height: 50vh;
+    border-radius: 25px;
+    box-shadow: -1.25rem 1.875rem  rgba(7, 9, 206, 0.1) ;
+}
+.headText{
+    font-size: 70px;
+    font-weight: 700;
+}
+.tagText{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.imageS{
+    height: 25vh;
+    width: 15vw;
+}
+
