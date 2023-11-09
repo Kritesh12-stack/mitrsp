@@ -15,6 +15,31 @@ body{
 
   background-size: 11px 11px;
   overflow-x: hidden;
+  
 }
 
+
+body {
+  --sb-track-color: #f2fbff;
+  --sb-thumb-color: #6c6baf;
+  --sb-size: 17px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+  
+  }
 

@@ -29,5 +29,6 @@
     border-radius: 50%;
     box-shadow: 0.625rem -0.625rem  #1279FC , -0.625rem 0.625rem 
     rgba(18, 121, 252, 0.2);
+    transform: rotate(360deg) infinite;
 }
 
